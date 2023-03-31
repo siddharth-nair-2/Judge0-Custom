@@ -36,7 +36,7 @@ services:
     environment:
       - VIRTUAL_HOST=34.130.217.14
       - LETSENCRYPT_HOST=34.130.217.14
-      - LETSENCRYPT_EMAIL=nairsid2@gmail.com
+      - LETSENCRYPT_EMAIL=nairsidhu2358@gmail.com
     volumes:
       - ./judge0.conf:/judge0.conf:ro
     privileged: true
