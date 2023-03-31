@@ -34,8 +34,8 @@ services:
   server:
     image: judge0/judge0:1.13.0
     environment:
-      - VIRTUAL_HOST=www.auto-grader.cyclic.app
-      - LETSENCRYPT_HOST=www.auto-grader.cyclic.app
+      - VIRTUAL_HOST=auto-grader.cyclic.app
+      - LETSENCRYPT_HOST=auto-grader.cyclic.app
       - LETSENCRYPT_EMAIL=nairsidhu2358@gmail.com
     volumes:
       - ./judge0.conf:/judge0.conf:ro
