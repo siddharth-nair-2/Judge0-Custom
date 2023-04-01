@@ -34,8 +34,8 @@ services:
   server:
     image: judge0/judge0:1.13.0
     environment:
-      - VIRTUAL_HOST=www.siddharthnair.info
-      - LETSENCRYPT_HOST=www.siddharthnair.info
+      - VIRTUAL_HOST=judge0-server.siddharthnair.info
+      - LETSENCRYPT_HOST=judge0-server.siddharthnair.info
       - LETSENCRYPT_EMAIL=nairsidhu2358@gmail.com
     volumes:
       - ./judge0.conf:/judge0.conf:ro
